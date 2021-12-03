@@ -1,0 +1,25 @@
+{
+    "listaProductos":[
+        {
+            "titulo":"",
+            "imagen":"",
+            "descripcion":"",
+            "precio":"$1",
+            "stock": 1
+        },
+        {
+            "titulo":"",
+            "imagen":"",
+            "descripcion":"",
+            "precio":"$1",
+            "stock": 1
+        },
+        {
+            "titulo":"",
+            "imagen":"",
+            "descripcion":"",
+            "precio":"$1",
+            "stock": 1
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+#imagencabecera{
+    width: 80px;
+}
+
+#ImgBanner{
+    width: 1349px;
+    height: 753;
+}
+
+#navbarNav{
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#TitleH2{
+    text-align: center;
+    font-weight: bold;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 38px;
+    color: #463F3A;
+}
+
+#TextProy{
+    color: #463F3A;
+    text-align: center;
+    font-size: 20px;
+    margin: 60px;
+    font-family: Montserrat;
+}
+
+#ImgLibros{
+    align-self: center;
+    width: 58%;
+}
+
+#H2Cards{
+    padding-bottom: 40px;
+}
+
+#Cards{
+    background-color: #F4F3EE;
+    padding: 50px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+#CardDesing{
+    background-color: #F0EFEA;
+}
+
+.bg-aqua{
+    background-color: #93B6C7;
+}
+
+.navbar-dark.bg-aqua .navbar-nav .nav-link{
+    color: #303952;
+}
+
+.navbar-dark.bg-aqua .navbar-brand{
+    color: brown;
+}
