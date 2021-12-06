@@ -1,7 +1,7 @@
 const User = require('../models/user.modelo');
 const Role = require('../models/roles.modelo');
-const jwt = require('jsonwebtoken');
-const config = require('../config');
+const jwt = require("jsonwebtoken");
+const config = require("../config");
 const authCtrl = {};
 
 authCtrl.signup = async(req, res)=>{
@@ -25,7 +25,9 @@ if (req.body.roles) {
 //salvar usuario en mongo
 const savedUser = await newUser.save();
 //crear el token
-const token = jwt.sign({id: savedUser._id}, config.SECRET, {expiresIn: 86400});
+const token = jwt.sign({id: savedUser._id}, config.SECRET, {
+expiresIn: 86400,
+});
 return res.status(200).json({token});
 }catch(error){
     console.log(error);
