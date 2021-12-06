@@ -8,7 +8,7 @@ export default class CrearProducto extends Component {
             titulo: "",
             imagen: "",            
             descripcion: "",
-            precio:"",
+            precio:"",  
             stock:"",
             contacto:"", 
             _id: "",
@@ -60,7 +60,7 @@ export default class CrearProducto extends Component {
           .then(res => res.json())
           .then(data =>{
               console.log(data);
-              this.setState({
+              this.setState({   
                   titulo: data.titulo,
                   imagen: data.imagen,
                   descripcion: data.descripcion,
